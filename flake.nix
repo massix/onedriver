@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -18,6 +18,9 @@
             go
             gopls
             glib
+            gofumpt
+            goimports-reviser
+            gotools
             fuse
             webkitgtk_4_1
           ];
